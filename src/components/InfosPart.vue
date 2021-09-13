@@ -147,4 +147,13 @@ img {
   position: relative;
   bottom: 17px;
 }
+
+@media only screen and (max-width: 600px) {
+  .filter {
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    gap: 8px;
+  }
+}
 </style>
